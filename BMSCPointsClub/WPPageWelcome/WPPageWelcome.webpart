@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="BMSCPointsClub.WPPageWelcome.WPPageWelcome, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Club de Puntos - Bienvenida</property>
+        <property name="Description" type="string">Página de bienvenida Club de Puntos.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

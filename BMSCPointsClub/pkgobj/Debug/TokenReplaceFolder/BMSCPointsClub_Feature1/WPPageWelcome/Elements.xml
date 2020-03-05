@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="WPPageWelcome" List="113" Url="_catalogs/wp">
+    <File Path="WPPageWelcome\WPPageWelcome.webpart" Url="BMSCPointsClub_WPPageWelcome.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Personalizado" />
+    </File>
+  </Module>
+</Elements>

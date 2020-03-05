@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Solución que permite la administración de la página de Club de Puntos." Id="7df70fb1-7f20-4487-8201-97d6937cc3d3" Scope="Site" Title="BMSC Club de Puntos">
+  <ElementManifests>
+    <ElementManifest Location="WPPageWelcome\Elements.xml" />
+    <ElementFile Location="WPPageWelcome\WPPageWelcome.webpart" />
+    <ElementManifest Location="WPPageCategory\Elements.xml" />
+    <ElementFile Location="WPPageCategory\WPPageCategory.webpart" />
+    <ElementManifest Location="WPPageProduct\Elements.xml" />
+    <ElementFile Location="WPPageProduct\WPPageProduct.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="5342bd82-2bf5-4457-a534-5d4df8827c14" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BMSCPointsClub.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="BMSCPointsClub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2842c8834f7c81b0" Namespace="BMSCPointsClub.WPPageWelcome" TypeName="*" />
+        <SafeControl Assembly="BMSCPointsClub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2842c8834f7c81b0" Namespace="BMSCPointsClub.WPPageCategory" TypeName="*" />
+        <SafeControl Assembly="BMSCPointsClub, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2842c8834f7c81b0" Namespace="BMSCPointsClub.WPPageProduct" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\BMSCPointsClub\WPPageWelcome\WPPageWelcomeUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BMSCPointsClub\WPPageCategory\WPPageCategoryUserControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\BMSCPointsClub\WPPageProduct\WPPageProductUserControl.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BMSCPointsClub_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
